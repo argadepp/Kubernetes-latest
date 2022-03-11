@@ -71,6 +71,6 @@ sudo systemctl enable kubelet
 
 sudo kubeadm config images pull
 
-7. Create Cluster
+6. Create Cluster
 
  kubeadm init --apiserver-advertise-address=<private-ip-address> --pod-network-cidr=192.168.0.0/16
